@@ -14,6 +14,8 @@
 		2074AE8328E4C252005451B4 /* ProyectoMovilesII.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2074AE8128E4C252005451B4 /* ProyectoMovilesII.xcdatamodeld */; };
 		2074AE8528E4C257005451B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2074AE8428E4C257005451B4 /* Assets.xcassets */; };
 		2074AE8828E4C257005451B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2074AE8628E4C257005451B4 /* LaunchScreen.storyboard */; };
+		379E06C929063B9E00A289F1 /* ViewControllerPrueba.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379E06C829063B9E00A289F1 /* ViewControllerPrueba.swift */; };
+		379E06CB2906432C00A289F1 /* ViewControllerPrueba2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379E06CA2906432C00A289F1 /* ViewControllerPrueba2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		2074AE8428E4C257005451B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2074AE8728E4C257005451B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2074AE8928E4C257005451B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		379E06C829063B9E00A289F1 /* ViewControllerPrueba.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPrueba.swift; sourceTree = "<group>"; };
+		379E06CA2906432C00A289F1 /* ViewControllerPrueba2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPrueba2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,7 @@
 		2074AE6C28E4C252005451B4 = {
 			isa = PBXGroup;
 			children = (
+				379E06C829063B9E00A289F1 /* ViewControllerPrueba.swift */,
 				2074AE7728E4C252005451B4 /* ProyectoMovilesII */,
 				2074AE7628E4C252005451B4 /* Products */,
 			);
@@ -66,6 +71,7 @@
 				2074AE8628E4C257005451B4 /* LaunchScreen.storyboard */,
 				2074AE8928E4C257005451B4 /* Info.plist */,
 				2074AE8128E4C252005451B4 /* ProyectoMovilesII.xcdatamodeld */,
+				379E06CA2906432C00A289F1 /* ViewControllerPrueba2.swift */,
 			);
 			path = ProyectoMovilesII;
 			sourceTree = "<group>";
@@ -141,10 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				379E06CB2906432C00A289F1 /* ViewControllerPrueba2.swift in Sources */,
 				2074AE8328E4C252005451B4 /* ProyectoMovilesII.xcdatamodeld in Sources */,
 				2074AE7D28E4C252005451B4 /* ViewController.swift in Sources */,
 				2074AE7928E4C252005451B4 /* AppDelegate.swift in Sources */,
 				2074AE7B28E4C252005451B4 /* SceneDelegate.swift in Sources */,
+				379E06C929063B9E00A289F1 /* ViewControllerPrueba.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
